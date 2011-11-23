@@ -1,0 +1,11 @@
+<div class="images">
+<% if @images.length: %>
+<ul>
+<% for image in @images: %>
+  <li style="display: none"><div class="description"><p><%= image.description %></p></div><div class="image"><img src="/assets/images/<%= image.source %>" alt=""></div></li>
+<% end %>
+</ul>
+<% else: %>
+<p>No images.</p>
+<% end %>
+</div>

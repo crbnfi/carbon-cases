@@ -1,0 +1,3 @@
+<div class="case-thumbnail" data-case="<%= @id %>" style="background-image: url('/assets/images/<%= @thumbnail %>');">
+  <div class="case-title"><%= @title %></div>
+</div>
